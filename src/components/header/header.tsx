@@ -31,7 +31,7 @@ export default function Header() {
                     <div className={styles.headerLink}>
                         <Link to="/about" className={styles.link}>About</Link>
                         <Link to="/blog" className={styles.link}>Blog</Link>
-                        <Link to="/portfolio" className={styles.link}>Portfolio</Link>
+                        {/* <Link to="/portfolio" className={styles.link}>Portfolio</Link> */}
                     </div>
                 </div>          
                 { isOpen && <Menu/> }
