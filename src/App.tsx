@@ -13,8 +13,8 @@ function App() {
     <>
       <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="DaiCode/" element={<Home />} />
+            <Route path="DaiCode/About" element={<About />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
