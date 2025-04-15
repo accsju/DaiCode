@@ -1,5 +1,4 @@
 import { useState } from 'react'
-// import useWindowSize from '../../hooks/useWindowSize'
 
 import { Link } from 'react-router-dom';
 

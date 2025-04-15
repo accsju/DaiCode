@@ -4,23 +4,20 @@ import NotFound from './Page/NotFound/NotFound'
 
 import './App.css'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router';
+
+const router = createBrowserRouter([
+  {path: '/', element: <Home />},
+  {path: '/About', element: <About />},
+  
+  {path: '*', element: <NotFound />},
+]);
 
 function App() {
 
   return (
-    <>
-      <Router>
-          <Routes>
-            <Route path="DaiCode/" element={<Home />} />
-            <Route path="DaiCode/About" element={<About />} />
-
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-      </Router>
-    </>
+    <RouterProvider router={router} />
   )
-}
+};
 
-export default App
+export default App;

@@ -6,6 +6,7 @@
 
   --color: #2C3437;
   --color-hover: #ffffff; 
+  --color-decoration: seagreen;
 }
 * {
   padding: 0;

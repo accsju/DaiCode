@@ -1,7 +1,14 @@
 .globalFooter {
     max-width: 1300px;
-    height: 300px;
     background-color: var(--bg-color-hover);
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
 }
+.globalFooter > p {
+    color: var(--color-hover);
+    font-size: .7rem;
+}
+

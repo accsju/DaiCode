@@ -12,7 +12,7 @@ export default function Menu() {
                 <hr/>
             </div>
             <div className={styles.externalLinks}>
-                
+                <a href="https://github.com/accsju">Github</a>
             </div>
         </div>
     )

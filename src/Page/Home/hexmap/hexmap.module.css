@@ -1,0 +1,52 @@
+.HexMapWrapper {
+    position: relative;
+}
+.HexMap {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.HexMapContentWrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.HexMapContent {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 0 60px;
+}
+.Catchphrase {
+    color: var(--color);
+    font-size: 4rem;
+}
+.Catchphrase > strong {
+    color: var(--color-decoration);
+}
+
+@media screen and (max-width:900px) {
+    .HexMapContent {
+        padding: 0 0 0 20px;
+    }
+    .Catchphrase {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .HexMapContent {
+        padding: 0 0 0 10px;
+    }
+    .Catchphrase {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:370px) {
+    .HexMapContent {
+        padding: 10px 0 0 5px;
+    }
+    .Catchphrase {
+        font-size: 1.5rem;
+    }
+}

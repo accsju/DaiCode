@@ -1,2 +1,0 @@
-main color -> white #ffffff
-sub color1 -> teal #008080
