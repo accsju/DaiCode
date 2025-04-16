@@ -7,8 +7,8 @@ import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router';
 
 const router = createBrowserRouter([
-  {path: '/DaiCode', element: <Home />},
-  {path: '/DaiCode/About', element: <About />},
+  {path: 'DaiCode/', element: <Home />},
+  {path: 'DaiCode/About', element: <About />},
   
   {path: '*', element: <NotFound />},
 ]);
