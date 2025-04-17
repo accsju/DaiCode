@@ -24,7 +24,7 @@ export default function Header() {
                             {isOpen ? "Close" : "Open"}
                         </button>
                         <h1 className={styles.siteTitle}>
-                            <Link to="/KaiCode" className={styles.linkHeader}>Dai Code</Link>  
+                            <Link to="/KaiCode/" className={styles.linkHeader}>Dai Code</Link>  
                         </h1>
                     </div>
                     <div className={styles.headerLink}>
