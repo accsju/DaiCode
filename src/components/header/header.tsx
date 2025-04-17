@@ -28,9 +28,9 @@ export default function Header() {
                         </h1>
                     </div>
                     <div className={styles.headerLink}>
-                        <Link to="/about" className={styles.link}>About</Link>
-                        <Link to="/blog" className={styles.link}>Blog</Link>
-                        <Link to="/portfolio" className={styles.link}>Portfolio</Link>
+                        <Link to="DaiCode/about" className={styles.link}>About</Link>
+                        <Link to="DaiCode/blog" className={styles.link}>Blog</Link>
+                        <Link to="DaiCode/portfolio" className={styles.link}>Portfolio</Link>
                     </div>
                 </div>          
                 { isOpen && <Menu/> }
