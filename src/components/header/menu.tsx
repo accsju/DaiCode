@@ -6,9 +6,9 @@ export default function Menu() {
         <div className={styles.menuContainer}>
             <div className={styles.pageLinks}>
                 <h2>page guide</h2>
-                <Link to="/DaiCode/about" className={styles.pageLink}>About</Link>
-                <Link to="/DaiCode/blog" className={styles.pageLink}>Blog</Link>
-                <Link to="/DaiCode/portfolio" className={styles.pageLink}>Portfolio</Link>
+                <Link to="/KaiCode/about" className={styles.pageLink}>About</Link>
+                <Link to="/KaiCode/blog" className={styles.pageLink}>Blog</Link>
+                <Link to="/KaiCode/portfolio" className={styles.pageLink}>Portfolio</Link>
                 <hr/>
             </div>
             <div className={styles.externalLinks}>
