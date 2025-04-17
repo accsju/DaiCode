@@ -1,0 +1,79 @@
+.myProfileContainer {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    display: flex;
+}
+.myProfile {
+    max-width: 1200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.selfIntroduction {
+    color: var(--color);
+    padding: 0 0 10px 10px;
+}          
+.selfIntroduction h1 {
+    color: var(--color);
+    padding: 0 0 10px 0;
+    font-size: 2rem;
+}
+.selfIntroduction p {
+    color: var(--color);
+    padding:  0 0 10px 10px;
+    font-size: 1.3rem
+} 
+.interests {
+    padding: 10px;
+}
+.interests h2 {
+    color: var(--color);
+    padding: 0 0 10px 0;
+    font-size: 1.9rem;
+}
+.interests li {
+    color: var(--color);
+    list-style: none;
+    padding:  0 0 10px 5px;
+    font-size: 1.3rem;
+}
+.Categories {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Categories div {
+    padding: 10px;
+}
+.Categories h2 {
+    color: var(--color);
+    padding: 0 0 10px 0;
+    font-size: 1.9rem;
+}
+.Categories li {
+    color: var(--color);
+    list-style: none;
+    padding: 0 0 10px 5px;
+    font-size: 1.3rem;
+}
+@media screen and (max-width:370px) {
+    .selfIntroduction h1 {
+        font-size: 1.5rem;
+    }
+    .selfIntroduction p {
+        font-size: 1rem;
+    }
+    .interests h2 {
+        font-size: 1.5rem;
+    }
+    .interests li {
+        font-size: 1rem;
+    }
+    .Categories h2 {
+        font-size: 1.3rem;
+    }
+    .Categories li {
+        font-size: 1rem;
+    }
+}
