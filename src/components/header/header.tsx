@@ -24,13 +24,13 @@ export default function Header() {
                             {isOpen ? "Close" : "Open"}
                         </button>
                         <h1 className={styles.siteTitle}>
-                            <Link to="/DaiCode/" className={styles.linkHeader}>Dai Code</Link>  
+                            <Link to="/" className={styles.linkHeader}>Dai Code</Link>  
                         </h1>
                     </div>
                     <div className={styles.headerLink}>
-                        <Link to="/DaiCode/About" className={styles.link}>About</Link>
-                        <Link to="/DaiCode/Blog" className={styles.link}>Blog</Link>
-                        <Link to="/DaiCode/Portfolio" className={styles.link}>Portfolio</Link>
+                        <Link to="/About" className={styles.link}>About</Link>
+                        <Link to="/Blog" className={styles.link}>Blog</Link>
+                        <Link to="/Portfolio" className={styles.link}>Portfolio</Link>
                     </div>
                 </div>          
                 { isOpen && <Menu/> }
