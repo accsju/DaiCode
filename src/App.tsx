@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   {path: '/DaiCode/', element: <Home />},
   {path: '/DaiCode/about', element: <About />},
   
-  {path: '*', element: <NotFound />},
+  // {path: '*', element: <NotFound />},
 ]);
 
 function App() {
