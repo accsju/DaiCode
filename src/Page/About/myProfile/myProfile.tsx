@@ -7,9 +7,7 @@ export default function myProfile() {
                 <div className={styles.data}>
                     <div className={styles.selfIntroduction}>
                         <h1>Self introduction.</h1>
-                        <p>I'm from Tara Town, Saga Prefecture.
-                            I'm not employed at the moment.
-                            I'm 24 years old,born on May 15.My Blood type is B
+                        <p>
                             My hobbies are programming(mainly JavaScript) and going for walks.
                         </p>
                         <hr/>
